@@ -1,0 +1,346 @@
+# Bulgarian translation of iagno po-file.
+# Copyright (C) 2002, 2003, 2004, 2005, 2006, 2007, 2008 Free Software Foundation, Inc.
+# Copyright (C) 2009, 2010, 2012, 2016, 2017 Free Software Foundation, Inc.
+# Copyright (C) 2010, 2012 Krasimir Chonov <mk2616@abv.bg>.
+# Evgeni Boevski <linkej@yahoo.com>, 2002, 2003.
+# Rostislav "zbrox" Raykov <zbrox@i-space.org>, 2004, 2005, 2006.
+# Alexander Shopov <ash@kambanaria.org>, 2007, 2008, 2009, 2010, 2012, 2016, 2017.
+# Yavor Doganov <yavor@gnu.org>, 2008.
+# Krasimir Chonov <mk2616@abv.bg>, 2010, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: iagno master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-02 08:59+0300\n"
+"PO-Revision-Date: 2017-08-18 20:39+0200\n"
+"Last-Translator: Alexander Shopov <ash@kambanaria.org>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/iagno.appdata.xml.in.h:1 ../data/iagno.desktop.in.h:1
+#: ../src/iagno.vala:86 ../src/iagno.vala:173 ../src/iagno.vala:267
+msgid "Iagno"
+msgstr "Отело"
+
+#: ../data/iagno.appdata.xml.in.h:2 ../data/iagno.desktop.in.h:3
+msgid "Dominate the board in a classic version of Reversi"
+msgstr "Тотална доминация с играта „Отело“"
+
+#: ../data/iagno.appdata.xml.in.h:3
+msgid ""
+"Iagno is a computer version of the game Reversi, a two-player strategy board "
+"game. The game is played with tiles that are dark on one side and light on "
+"the other."
+msgstr ""
+"„Отело“ или още „Реверси“ е стратегическа настолна игра за двама. Играе се с "
+"пулове, които са светли от едната страна и тъмни от другата."
+
+#: ../data/iagno.appdata.xml.in.h:4
+msgid ""
+"The object of Iagno is to flip as many of your opponent's tiles to your "
+"color as possible while preventing your opponent from flipping your tiles to "
+"his color. This is done by trapping your opponent's tiles between two tiles "
+"of your own color."
+msgstr ""
+"Целта е да се обърнат максимален брой пулове във вашия цвят, като пречите на "
+"противника си да направи същото. Обръщането става като прихванете пулове в "
+"цвета на противника между два във вашия цвят."
+
+#: ../data/iagno.appdata.xml.in.h:5
+msgid "A GNOME Iagno game preview"
+msgstr "Преглед на игра „Отело“ от GNOME"
+
+#: ../data/iagno.appdata.xml.in.h:6
+msgid "The GNOME Project"
+msgstr "Проектът GNOME"
+
+#: ../data/iagno.desktop.in.h:2
+msgid "Reversi"
+msgstr "Отело"
+
+#: ../data/iagno.desktop.in.h:4
+msgid "reversi;othello;"
+msgstr "отело;реверси;дъска;пулове;reversi;othello;"
+
+#: ../data/iagno.desktop.in.h:5
+msgid "Play first (Dark)"
+msgstr "Начален ход (тъмни)"
+
+#: ../data/iagno.desktop.in.h:6
+msgid "Play second (Light)"
+msgstr "Втори ход (светли)"
+
+#: ../data/iagno.desktop.in.h:7
+msgid "Two players game"
+msgstr "Игра за двама"
+
+#: ../data/iagno-menus.ui.h:1
+msgid "A_ppearance"
+msgstr "_Изглед"
+
+#: ../data/iagno-menus.ui.h:2
+msgid "_Sound"
+msgstr "_Звук"
+
+#: ../data/iagno-menus.ui.h:3
+msgid "_Help"
+msgstr "Помо_щ"
+
+#: ../data/iagno-menus.ui.h:4
+msgid "_About"
+msgstr "_Относно"
+
+#: ../data/iagno-menus.ui.h:5
+msgid "_Quit"
+msgstr "_Спиране на програмата"
+
+#: ../data/iagno-screens.ui.h:1
+msgid "Players"
+msgstr "_Играчи"
+
+#: ../data/iagno-screens.ui.h:2
+msgid "_One"
+msgstr "_Един"
+
+#: ../data/iagno-screens.ui.h:3
+msgid "_Two"
+msgstr "_Двама"
+
+#: ../data/iagno-screens.ui.h:4
+msgid "Difficulty"
+msgstr "Трудност"
+
+#: ../data/iagno-screens.ui.h:5
+msgid "_Easy"
+msgstr "_Лесна"
+
+#: ../data/iagno-screens.ui.h:6
+msgid "_Medium"
+msgstr "_Средна"
+
+#: ../data/iagno-screens.ui.h:7
+msgid "_Hard"
+msgstr "_Трудна"
+
+#: ../data/iagno-screens.ui.h:8
+msgid "Color"
+msgstr "Цвят"
+
+#: ../data/iagno-screens.ui.h:9
+msgid "_Dark"
+msgstr "_Тъмни"
+
+#: ../data/iagno-screens.ui.h:10
+msgid "_Light"
+msgstr "_Светли"
+
+#: ../data/iagno-themes.ui.h:1
+msgid "Select Theme"
+msgstr "Избор на тема"
+
+#: ../data/iagno-themes.ui.h:2
+msgid "Default"
+msgstr "Стандартна"
+
+#: ../data/iagno.ui.h:1
+msgid "Go back to the current game"
+msgstr "Към текущата игра"
+
+#: ../data/iagno.ui.h:2
+msgid "_New Game"
+msgstr "_Нова игра"
+
+#: ../data/iagno.ui.h:3
+msgid "Configure a new game"
+msgstr "Настройване на нова игра"
+
+#: ../data/iagno.ui.h:4
+msgid "Start a new game"
+msgstr "Започване на нова игра"
+
+#: ../data/themes/adwaita.theme.in.h:1
+msgid "Adwaita"
+msgstr "Adwaita"
+
+#: ../data/themes/classic.theme.in.h:1
+msgid "Classic"
+msgstr "Класическа"
+
+#: ../data/themes/high_contrast.theme.in.h:1
+msgid "Black and White"
+msgstr "Бели и черни"
+
+#: ../data/themes/sun_and_star.theme.in.h:1
+msgid "Sun and Star"
+msgstr "Слънца и звезди"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:1
+msgid "Computer's AI level"
+msgstr "Трудност на компютъра"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:2
+msgid "From 1, the easiest, to 3, the hardest."
+msgstr "1 (лесна), 2 (средна), 3 (трудна)"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:3
+msgid "Whether to play against the computer or another human."
+msgstr "Дали играта е срещу компютъра или друг човек."
+
+#: ../data/org.gnome.iagno.gschema.xml.h:4
+msgid "Color to play as"
+msgstr "Цвят за игра"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:5
+msgid "Whether to play as Dark or Light. Ignored for two-player games."
+msgstr ""
+"Дали да играете с тъмните или светлите. Настройката има значение само при "
+"игра срещу компютъра."
+
+#: ../data/org.gnome.iagno.gschema.xml.h:6
+msgid "Theme"
+msgstr "Тема"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:7
+msgid ""
+"Filename of the theme used, or \"default\". Are provided \"adwaita.theme\", "
+"\"high_contrast.theme\" and \"sun_and_star.theme\"."
+msgstr ""
+"Име на файла с темата или „default“ (стандартна). Възможностите са „adwaita."
+"theme“, „high_contrast.theme“ и „sun_and_star.theme“."
+
+#: ../data/org.gnome.iagno.gschema.xml.h:8
+msgid "Sound"
+msgstr "Звук"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:9
+msgid "Whether or not to play event sounds."
+msgstr "Дали да се изпълняват звуци при събития."
+
+#: ../data/org.gnome.iagno.gschema.xml.h:10
+msgid "Width of the window in pixels"
+msgstr "Широчината на прозореца в пиксели"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:11
+msgid "Height of the window in pixels"
+msgstr "Височината на прозореца в пиксели"
+
+#: ../data/org.gnome.iagno.gschema.xml.h:12
+msgid "true if the window is maximized"
+msgstr "истина, ако прозорецът е максимизиран"
+
+#: ../src/game-window.vala:128
+msgid "_Start Game"
+msgstr "_Нова игра"
+
+#: ../src/game-window.vala:153
+msgid "Undo your most recent move"
+msgstr "Отмяна на последния ход"
+
+#: ../src/iagno.vala:58
+msgid "Start with an alternative position"
+msgstr "Начало с различна позиция на пуловете"
+
+#: ../src/iagno.vala:59
+msgid "Reduce delay before AI moves"
+msgstr "По-малко забавяне между ходовете на компютъра"
+
+#: ../src/iagno.vala:60
+msgid "Play first"
+msgstr "Първи ход"
+
+#: ../src/iagno.vala:61
+msgid "Set the level of the computer's AI"
+msgstr "Трудност на изкуствения интелект на компютъра"
+
+#: ../src/iagno.vala:62
+msgid "Turn off the sound"
+msgstr "Без звук"
+
+#: ../src/iagno.vala:63
+msgid "Play second"
+msgstr "Втори ход"
+
+#: ../src/iagno.vala:64
+msgid "Size of the board (debug only)"
+msgstr "Размер на дъската (за трасиране)"
+
+#: ../src/iagno.vala:65
+msgid "Two-players mode"
+msgstr "Игра за двама"
+
+#: ../src/iagno.vala:66
+msgid "Turn on the sound"
+msgstr "Със звук"
+
+#: ../src/iagno.vala:67
+msgid "Print release version and exit"
+msgstr "Извеждане на версията и спиране на програмата"
+
+#. Console message displayed for an incorrect size
+#: ../src/iagno.vala:111
+msgid "Size must be at least 4."
+msgstr "Размерът трябва да е поне 4."
+
+#: ../src/iagno.vala:158
+msgid "Level should be between 1 (easy) and 3 (hard). Settings unchanged."
+msgstr ""
+"Трудностите са 1 (лесна), 2(средна) и 3 (трудна). Настройката е непроменена."
+
+#: ../src/iagno.vala:275
+msgid "A disk flipping game derived from Reversi"
+msgstr "Игра с обръщане на пулове."
+
+#: ../src/iagno.vala:278
+msgid "translator-credits"
+msgstr ""
+"Ростислав „zbrox“ Райков <zbrox@i-space.org>\n"
+"Евгени Боевски <e_boevski@abv.bg>\n"
+"Александър Шопов <ash@kambanaria.org>\n"
+"Красимир „bfaf“ Чонов <mk2616@abv.bg>\n"
+"\n"
+"Проектът за превод на GNOME има нужда от подкрепа.\n"
+"Научете повече за нас на <a href=\"http://gnome.cult.bg\">http://gnome.cult."
+"bg</a>\n"
+"Докладвайте за грешки на <a href=\"http://gnome.cult.bg/bugs\">http://gnome."
+"cult.bg/bugs</a>"
+
+#. Translators: this is a 2 digit representation of the current score.
+#: ../src/iagno.vala:340 ../src/iagno.vala:341
+#, c-format
+msgid "%.2d"
+msgstr "%.2d"
+
+#. Message to display when Light has no possible moves
+#: ../src/iagno.vala:408
+msgid "Light must pass, Dark’s move"
+msgstr "Светлите пропускат, на ход са тъмните"
+
+#. Message to display when Dark has no possible moves
+#: ../src/iagno.vala:413
+msgid "Dark must pass, Light’s move"
+msgstr "Тъмните пропускат, на ход са светлите"
+
+#. Message to display when Light has won the game
+#: ../src/iagno.vala:424
+msgid "Light wins!"
+msgstr "Светлите спечелиха!"
+
+#. Message to display when Dark has won the game
+#: ../src/iagno.vala:429
+msgid "Dark wins!"
+msgstr "Тъмните спечелиха!"
+
+#. Message to display when the game is a draw
+#: ../src/iagno.vala:434
+msgid "The game is draw."
+msgstr "Равенство!"
+
+#. Message to display when the player tries to make an illegal move
+#: ../src/iagno.vala:450
+msgid "You can’t move there!"
+msgstr "Непозволен ход!"

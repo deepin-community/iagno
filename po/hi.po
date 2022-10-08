@@ -1,0 +1,197 @@
+# translation of gnome-games.master.hi.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+#
+# G Karunakar <karunakar@freedomink.org>, 2003.
+# Ravishankar Shrivastava <raviratlami@yahoo.com>, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2007.
+# Ravishankar Shrivastava <raviratlami@aol.in>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-games.master.hi\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
+"product=iagno&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-12-02 22:23+0000\n"
+"PO-Revision-Date: 2013-03-25 16:32+0530\n"
+"Last-Translator: raj <raj>\n"
+"Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../data/iagno.desktop.in.in.h:1 ../src/iagno.vala:82 ../src/iagno.vala:295
+#: ../src/iagno.vala:620
+msgid "Iagno"
+msgstr "इआग्नो"
+
+#: ../data/iagno.desktop.in.in.h:2
+msgid "Dominate the board in a classic version of Reversi"
+msgstr "क्लासिक रिवर्सी के संस्करण से बोर्ड डामिनेट रखें"
+
+#: ../data/iagno.desktop.in.in.h:3
+msgid "othello;"
+msgstr "othello;"
+
+#: ../data/iagno.ui.h:1
+msgid "_New Game"
+msgstr "नया खेल (_N)"
+
+#: ../data/iagno.ui.h:2
+msgid "_Undo"
+msgstr "पूर्ववत् करें (_U)"
+
+#: ../data/iagno.ui.h:3
+msgid "_Preferences"
+msgstr "वरीयताएँ (_P)"
+
+#: ../data/iagno.ui.h:4
+msgid "_Help"
+msgstr "मदद (_H)"
+
+#: ../data/iagno.ui.h:5
+msgid "_About"
+msgstr "के बारे में (_A)"
+
+#: ../data/iagno.ui.h:6
+msgid "_Quit"
+msgstr "बाहर (_Q)"
+
+# #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
+# 48x48/emblems/emblem-sound.icon.in.h:1
+# 48x48/emblems/emblem-sound.icon.in.h:1
+#: ../data/org.gnome.iagno.gschema.xml.in.h:1
+msgid "Sound"
+msgstr "ध्वनि"
+
+#: ../data/org.gnome.iagno.gschema.xml.in.h:2
+msgid "Whether or not to play event sounds."
+msgstr "घटनाओं हेतु ध्वनि बजाएँ या नहीं."
+
+#: ../data/org.gnome.iagno.gschema.xml.in.h:3
+msgid "Width of the window in pixels"
+msgstr "पिक्सेल में विंडो में चौड़ाई"
+
+#: ../data/org.gnome.iagno.gschema.xml.in.h:4
+msgid "Height of the window in pixels"
+msgstr "पिक्सेल में विंडो की ऊंचाई."
+
+#: ../data/org.gnome.iagno.gschema.xml.in.h:5
+msgid "true if the window is maximized"
+msgstr "सही यदि विंडो सबसे बड़े आकार का होना चाहिए"
+
+#: ../data/org.gnome.iagno.gschema.xml.in.h:6
+msgid "true if the window is fullscren"
+msgstr "सही यदि विंडो पूर्णस्क्रीन है"
+
+#: ../src/iagno.vala:137 ../src/iagno.vala:254 ../src/iagno.vala:262
+msgid "Dark:"
+msgstr "गहराः"
+
+#: ../src/iagno.vala:145 ../src/iagno.vala:255 ../src/iagno.vala:263
+msgid "Light:"
+msgstr "हल्काः"
+
+#: ../src/iagno.vala:246
+msgid "Light must pass, Dark's move"
+msgstr "हल्के रंग को पास करना होगा. गहरे रंग की बारी"
+
+#: ../src/iagno.vala:248
+msgid "Dark must pass, Light's move"
+msgstr "गहरे रंग  को पास करना होगा. हल्के रंग  की बारी"
+
+# libgnomeprint/gnome-print-paper.c:51
+#. Translators: this is a 2 digit representation of the current score.
+#: ../src/iagno.vala:257 ../src/iagno.vala:258 ../src/iagno.vala:265
+#: ../src/iagno.vala:266
+#, c-format
+msgid "%.2d"
+msgstr "%.2d"
+
+#: ../src/iagno.vala:300
+msgid ""
+"A disk flipping game derived from Reversi.\n"
+"\n"
+"Iagno is a part of GNOME Games."
+msgstr ""
+"रिवर्सी से व्युत्पन्न डिस्क फ्लिपिंग खेल.\n"
+"\n"
+"लेग्नो, ग्नोम खेल का हिस्सा है."
+
+#  Translator credits
+#: ../src/iagno.vala:303
+msgid "translator-credits"
+msgstr ""
+"रविशंकर श्रीवास्तव (raviratlami@yahoo.com)\n"
+"राजेश रंजन (rajeshkajha@yahoo.com)"
+
+# libgnomeprintui/gnome-print-paper-selector.c:1453
+#: ../src/iagno.vala:305
+msgid "GNOME Games web site"
+msgstr "ग्नोम खेल वेबसाइट"
+
+#: ../src/iagno.vala:368
+msgid "Light player wins!"
+msgstr "हल्के रंग वाला खिलाड़ी जीता!"
+
+#: ../src/iagno.vala:370
+msgid "Dark player wins!"
+msgstr "गहरे रंग वाला खिलाड़ी जीता!"
+
+#: ../src/iagno.vala:372
+msgid "The game was a draw."
+msgstr "खेल बराबरी पर रहा."
+
+#: ../src/iagno.vala:396
+msgid "Invalid move."
+msgstr "अवैध चाल."
+
+#: ../src/iagno.vala:461
+msgid "Iagno Preferences"
+msgstr "इआग्नो वरीयताएँ"
+
+#: ../src/iagno.vala:480
+msgid "Dark Player:"
+msgstr "गहरे रंग वाला खिलाड़ी:"
+
+#: ../src/iagno.vala:493 ../src/iagno.vala:522
+msgid "Human"
+msgstr "मनुष्य "
+
+#: ../src/iagno.vala:497 ../src/iagno.vala:526
+msgid "Level one"
+msgstr "स्तर एक"
+
+#: ../src/iagno.vala:501 ../src/iagno.vala:530
+msgid "Level two"
+msgstr "स्तर दो"
+
+#: ../src/iagno.vala:505 ../src/iagno.vala:534
+msgid "Level three"
+msgstr "स्तर तीन"
+
+#: ../src/iagno.vala:510
+msgid "Light Player:"
+msgstr "हल्के रंग वाला खिलाड़ी:"
+
+# libgnome/gnome-program.c:578
+#: ../src/iagno.vala:539
+msgid "E_nable sounds"
+msgstr "ध्वनियाँ सक्षम करें (_n)"
+
+#  show grid button
+#: ../src/iagno.vala:544
+msgid "S_how grid"
+msgstr "ग्रिड दिखाएँ (_h)"
+
+#: ../src/iagno.vala:549
+msgid "_Flip final results"
+msgstr "अंतिम परिणाम पलटें (_F)"
+
+#: ../src/iagno.vala:554
+msgid "_Tile set:"
+msgstr "टाइल सेट (_T):"
